@@ -1,11 +1,8 @@
 #include <stdio.h>
 int main() {
-   int x;
-   scanf("%d",&x);
-   int y;
-   scanf("%d",&y);
-   int z;
-   z=(a+b);
+   int x,y;
+   scanf("%d%d",&x&y);
+   int z=(x+y);
    printf("%d",z);
    return 0;
 }
