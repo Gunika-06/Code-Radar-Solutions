@@ -2,7 +2,9 @@
 int main() {
     int x,y;
     scanf("%d%d",&x,&y);
-    if(x=y*y){
+    int z;
+    z=(y*y);
+    if(x=z){
         printf("Yes");
     }
     else{
