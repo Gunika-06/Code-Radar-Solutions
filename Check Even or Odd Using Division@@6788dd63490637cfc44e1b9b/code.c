@@ -3,7 +3,7 @@ int main() {
     int x;
     scanf("%d",&x);
     int q;
-    q = x/2;
+    q = (x/2);
     if(q*2==x){
         printf("Even");
     }
