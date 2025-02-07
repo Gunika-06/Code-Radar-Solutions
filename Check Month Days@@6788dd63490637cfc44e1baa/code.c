@@ -5,6 +5,9 @@ int main() {
     if (x==2){
         printf("28");
     }
+    else if(x==12){
+        printf("31");
+    }
     else if(x%2==0){
         printf("30");
     }
