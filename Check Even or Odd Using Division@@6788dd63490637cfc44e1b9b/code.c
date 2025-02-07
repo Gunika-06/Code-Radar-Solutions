@@ -2,9 +2,9 @@
 int main() {
     int x;
     scanf("%d",&x);
-    int quotient;
-    quotient = x/2;
-    if(quotient*2==x){
+    int q;
+    q = x/2;
+    if(q*2==x){
         printf("Even");
     }
     else{
