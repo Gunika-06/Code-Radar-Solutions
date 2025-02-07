@@ -3,10 +3,10 @@ int main() {
     int x,y;
     scanf("%d",&x,&y);
     if(x>y){
-        printf("%d%d",x,y);
+        greater=x;
     }
     else{
-        printf("%d%d",y,x);
+        greater=y;
     }
     return 0;
 }
