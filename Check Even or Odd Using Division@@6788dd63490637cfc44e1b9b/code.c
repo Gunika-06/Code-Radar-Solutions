@@ -2,9 +2,7 @@
 int main() {
     int x;
     scanf("%d",&x);
-    int q;
-    q = (x/2);
-    if(q*2==x){
+    if(x%2==0){
         printf("Even");
     }
     else{
