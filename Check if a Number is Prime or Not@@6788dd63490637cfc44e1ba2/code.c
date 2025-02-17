@@ -2,11 +2,14 @@
 int main() {
     int x;
     scanf("%d",&x);
-    if(x%x==0 && x%1==0){
-        printf("Prime");
+    int x=0;
+    for(int i = 1;i<=(n-1);i++){
+        if(n%i==0){
+            a=1;
+            break;
+        }
     }
-    else{
-        printf("Not Prime");
-    }
+    if(x==0) printf("Prime");
+    else printf("Not Prime");
     return 0;
 }
