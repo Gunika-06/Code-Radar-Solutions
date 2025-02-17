@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&x);
     int a=0;
     for(int i = 1;i<=(n-1);i++){
-        if(a%i==0){
+        if(x%i==0){
             a=1;
             break;
         }
