@@ -5,15 +5,19 @@ int main(){
     switch(){
         case '+' :
         result = x+y;
+        printf("%d",result);
         break;
         case '-' :
         result = x-y;
+         printf("%d",result);
         break;
         case '*' :
         result = x*y;
+         printf("%d",result);
         break;
         case '/' :
         result = x/y;
+         printf("%d",result);
         break;
 
     }
