@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     char operator;
-    scanf("%c",&operator);
     int x,y;
+    scanf("%c",&operator);
     scanf("%d%d",&x,&y);
     switch(operator){
         case'+':
