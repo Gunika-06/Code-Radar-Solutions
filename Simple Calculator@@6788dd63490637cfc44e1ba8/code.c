@@ -3,16 +3,16 @@ int main(){
     int x,y,result;
     scanf("%d%d",&x,&y);
     switch(){
-        case '+'
+        case '+' :
         result = x+y;
         break;
-        case '-'
+        case '-' :
         result = x-y;
         break;
-        case '*'
+        case '*' :
         result = x*y;
         break;
-        case '/'
+        case '/' :
         result = x/y;
         break;
 
